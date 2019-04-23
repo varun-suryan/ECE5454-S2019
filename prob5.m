@@ -63,7 +63,7 @@ fprintf(1,'Done.\n');
 scatter(Y(1,:),Y(2,:),12,'+');
 grid off;
 set(gca,'XTick',[]); set(gca,'YTick',[]);
-title('Neighbors = 100')
+title('Neighbors = 5')
 
 
 

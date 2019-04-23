@@ -11,3 +11,10 @@ projected_data = X*U(:, 1:2);
 
 % recover the original data again by projecting back
 X_recovered = projected_data*U(:, 1:2)';
+
+fprintf('Eigen vectors are:\n')
+disp(U)
+
+fprintf('Eigen values are:\n')
+disp(diag(S))
+
